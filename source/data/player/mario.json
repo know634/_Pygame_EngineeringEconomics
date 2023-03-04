@@ -1,0 +1,217 @@
+{
+  "image_name": "player",
+  "image_frames": {
+    "right_small_normal": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "width": 208,
+        "height": 225
+      }
+    ],
+    "right_big_normal": [
+      {
+        "x": 0,
+        "y": 225,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 225,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 225,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 225,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 225,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 225,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 225,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 225,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 225,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 225,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 225,
+        "width": 208,
+        "height": 225
+      }
+    ],
+    "right_big_fire": [
+      {
+        "x": 0,
+        "y": 450,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 450,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 450,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 450,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 450,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 450,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 450,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 450,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 450,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 450,
+        "width": 208,
+        "height": 225
+      },
+      {
+        "x": 0,
+        "y": 450,
+        "width": 208,
+        "height": 225
+      }
+    ]
+  },
+  "speed": {
+    "max_walk_speed": 6,
+    "max_run_speed": 12,
+    "max_y_velocity": 11,
+    "walk_accel": 0.15,
+    "run_accel": 0.3,
+    "jump_velocity": -10.5
+  }
+}
