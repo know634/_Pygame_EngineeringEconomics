@@ -198,14 +198,15 @@ class Player(pg.sprite.Sprite):
             self.facing_right = False
             self.update_crouch_or_not()
             self.state = c.WALK
+
         elif keys[tools.keybinding['right']]:  # or tools.tmp[-1] > 1300:#todo
             self.facing_right = True
             self.update_crouch_or_not()
             self.state = c.WALK
+
         elif keys[tools.keybinding['jump']]:  # or tools.tmp[-1] > 4000:#todo
             if self.allow_jump:
                 self.state = c.JUMP
-
                 self.y_vel = self.jump_vel
 
         if not keys[tools.keybinding['down']]:
@@ -296,7 +297,6 @@ class Player(pg.sprite.Sprite):
     def jumping(self, keys, fire_group):
         """ y_vel value: positive is down, negative is up """
         self.check_to_allow_fireball(keys)
-
         self.allow_jump = False
         self.frame_index = 4
         self.gravity = c.JUMP_GRAVITY
@@ -310,6 +310,12 @@ class Player(pg.sprite.Sprite):
             self.x_vel = self.cal_vel(self.x_vel, self.max_x_vel, self.x_accel)
         elif keys[tools.keybinding['left']]:
             self.x_vel = self.cal_vel(self.x_vel, self.max_x_vel, self.x_accel, True)
+
+        #if keys[tools.keybinding['jump']]:
+        #    if keys[tools.keybinding['right']]:
+        #        self.x_vel = self.cal_vel(self.x_vel, self.max_x_vel, self.x_accel)
+        #    elif keys[tools.keybinding['left']]:
+        #        self.x_vel = self.cal_vel(self.x_vel, self.max_x_vel, self.x_accel, True)
 
         if not keys[tools.keybinding['jump']]:  # and not tools.tmp[-1] > 4000:#todo
             self.gravity = c.GRAVITY
